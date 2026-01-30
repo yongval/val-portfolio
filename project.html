@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<!-- HEAD-->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- infos sur le site -->
+    <title>Val's Portfolio</title>
+    <meta name="description" content="description courte du site" />
+    <!-- icone de votre site -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/project.css" />
+  
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Julius+Sans+One&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- BODY-->
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div id="title">
+                <a href="index.html" id="normal-val">VAL</a>
+                <a href="index.html" id="flip-val">VAL</a>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <div class="icon-open">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(-8.74228e-08 -1 -1 8.74228e-08 13.9548 30)" stroke="#2F2F2F" stroke-width="2"/>
+                        <path d="M0 15L30 15" stroke="#2F2F2F" stroke-width="2"/>
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 3.34814 25.1885)" stroke="#2F2F2F" stroke-width="2"/>
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 0.707107 0.707107 -0.707107 5.25464 3.97559)" stroke="#2F2F2F" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="icon-close icon-hide">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 21.2129)" stroke="#2F2F2F" stroke-width="2"/>
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1.90649 0)" stroke="#2F2F2F" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+
+            <a href="work.html">Work</a>
+            <a href="info.html">Info</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="mobile-menu">
+            <hr class="menu-line-break">
+            <a href="work.html">Work</a>
+            <hr class="menu-line-break">
+            <a href="info.html">Info</a>
+            <hr class="menu-line-break">
+            <a href="contact.html">Contact</a>
+            <hr class="menu-line-break">
+        </div>    
+        
+        <div class="project-container fade-in">
+            <div class="project-image">
+                <img class="project-img" src="src/img/testimg.jpg" alt="Project Image 1">
+                <img class="project-img" src="src/img/testimg2.png" alt="Project Image 2">
+            </div>
+
+            <div class="project-detail">
+                <h1>Project Name</h1>
+                <h2>Location, date 20XX.XX.XX</h2>
+                <p>Project descriptions.Public Sans. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br><br>Public Sans. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                </p>
+            </div>
+        </div>
+
+        
+        <!-- Zoom Modal -->
+        <div class="zoom">
+            <div class="zoom-exit">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 5L45 45M45 5L5 45" stroke="#2F2F2F"/>
+                </svg>
+            </div>
+            <div class="zoom-img"></div>
+            <div class="zoom-arrow-left">
+                <svg width="100" height="65" viewBox="0 0 120 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M119.769 84.5059L1.49377 44.7824L119.769 0.468501" stroke="#2F2F2F"/>
+                </svg>
+            </div>
+            <div class="zoom-arrow-right">
+                <svg width="100" height="65" viewBox="0 0 120 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.175332 84.5059L118.45 44.7824L0.175336 0.468501" stroke="#2F2F2F"/>
+                </svg>
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="go-up">
+            <a href="#">
+                <svg width="60" height="95" viewBox="0 0 85 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.473999 119.769L40.1975 1.49414L84.5114 119.769" stroke="#2F2F2F"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<!-- HEAD-->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- infos sur le site -->
+    <title>Val's Portfolio</title>
+    <meta name="description" content="description courte du site" />
+    <!-- icone de votre site -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/work.css" />
+  
+    <!-- scripts -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Julius+Sans+One&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- BODY-->
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div id="title">
+                <a href="index.html" id="normal-val">VAL</a>
+                <a href="index.html" id="flip-val">VAL</a>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <div class="icon-open">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(-8.74228e-08 -1 -1 8.74228e-08 13.9548 30)" stroke="#2F2F2F" stroke-width="2"/>
+                        <path d="M0 15L30 15" stroke="#2F2F2F" stroke-width="2"/>
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 3.34814 25.1885)" stroke="#2F2F2F" stroke-width="2"/>
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 0.707107 0.707107 -0.707107 5.25464 3.97559)" stroke="#2F2F2F" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="icon-close icon-hide">
+                    <svg width="24" height="24" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 21.2129)" stroke="#2F2F2F" stroke-width="2"/>
+                        <line y1="-1" x2="30" y2="-1" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1.90649 0)" stroke="#2F2F2F" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+
+            <a href="work.html">Work</a>
+            <a href="info.html">Info</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header> 
+
+    <!-- Main -->
+    <main>
+
+        <div class="mobile-menu">
+            <hr class="menu-line-break">
+            <a href="work.html">Work</a>
+            <hr class="menu-line-break">
+            <a href="info.html">Info</a>
+            <hr class="menu-line-break">
+            <a href="contact.html">Contact</a>
+            <hr class="menu-line-break">
+        </div>       
+
+        <div id="work-grid">
+            <div class="work-item on-scroll hide">
+                <a href="project.html">              
+                    <h3>Project Name</h3>
+                    <img src="src/img/testimg.jpg" alt="Project 1 Thumbnail">
+                </a>
+            </div>
+            <div class="work-item on-scroll hide">
+                <a href="project.html">
+                    <h3>Project Name</h3>
+                    <img src="src/img/testimg2.png" alt="Project 2 Thumbnail">
+                </a>
+            </div>
+            <div class="work-item on-scroll hide">
+                <a href="project.html">
+                    <h3>Project Name</h3>
+                    <img src="src/img/testimg.jpg" alt="Project 3 Thumbnail">
+                </a>
+            </div>
+            <div class="work-item on-scroll hide">
+                <a href="project.html">
+                    <h3>Project Name</h3>
+                    <img src="src/img/testimg.jpg" alt="Project 4 Thumbnail">
+                </a>
+            </div>
+            <div class="work-item on-scroll hide">
+                <a href="project.html">
+                    <h3>Project Name</h3>
+                    <img src="src/img/testimg.jpg" alt="Project 5 Thumbnail">
+                </a>
+            </div>
+            <div class="work-item on-scroll hide">
+                <a href="project.html">
+                    <h3>Project Name</h3>
+                    <img src="src/img/testimg.jpg" alt="Project 6 Thumbnail">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Go-up Arrow -->
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="go-up">
+            <a href="#">
+                <svg width="60" height="95" viewBox="0 0 85 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.473999 119.769L40.1975 1.49414L84.5114 119.769" stroke="#2F2F2F"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html> 

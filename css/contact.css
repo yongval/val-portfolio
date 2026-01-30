@@ -1,0 +1,81 @@
+
+main{
+    display: block;
+}
+
+/* Contact container */
+.contact-top {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-container p {
+    text-align: right;
+    max-width: 500px;
+}
+
+.contact-container img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.contact-container h1, .contact-container a{
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.contact-number{
+    margin-top: 50px;
+    text-align: right;
+}
+
+.contact-sns{
+    margin-top: 10px;
+}
+
+.contact-sns h1, .contact-sns a {
+    overflow-wrap: break-word;
+}
+
+
+/** Responsive **/
+
+/* Small Screen (mobile)*/
+@media (max-width: 600px) {
+    .contact-top{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .contact-container p{
+        text-align: left;
+    }
+    .contact-container img{
+        align-self: end;
+        width: 170px;
+        height: 240px;
+    }
+    .contact-container h1, .contact-container a {
+        font-size: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 601px) and (max-width: 991px) {
+    .contact-container h1, .contact-container a {
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices */
+@media (min-width: 2560px) {    
+    .contact-container img{
+        width: 400px;
+        height: 500px;
+    }
+    .contact-container h1, .contact-container a{
+        font-size: 100px;
+    }
+}
