@@ -26,6 +26,7 @@ main{
     position: relative;
     margin-left: 0;
     margin-right: 0;
+    background-color: var(--main-clr);
 }
 
 .info-profile h2{
